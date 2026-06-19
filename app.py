@@ -14,7 +14,7 @@ st.subheader("Technical Program Leader")
 st.markdown(
     """
     I bridge the gap between high-level business strategy and deep technical operations. 
-    Below are next-gen AI tools built to eliminate administrative drag, 
+    Below are Next-Gen AI tools built to eliminate administrative drag, 
     establish clear guardrails, and unlock actionable intelligence.
 
     *Every engine below is fully containerized and hosted live on **Google Cloud Run**.*
@@ -33,13 +33,13 @@ with st.container():
         st.subheader("1. Risk Report Dashboard")
         st.markdown(
             """
-            **The Bottleneck:** Data-dense, insight-poor static spreadsheet logs stall alignment.
+            **The Bottleneck:** Data-dense, insight-poor static spreadsheets stall alignment.
 
-            **The Pipeline:** A three-stage pipeline parsing raw data, applying LLM contextual synthesis, and generating structured executive-ready narratives.
+            **The Pipeline:** A three-stage pipeline normalizing risk data, applying LLM contextual synthesis, and generating structured executive-ready narratives.
             """
         )
     with col2:
-        st.write("##")  # Visual spacing spacing
+        st.write("##")  # Visual spacing
         st.link_button("Launch Prototype", "https://risk-report-git-226264856502.us-east1.run.app/", type="primary",
                        use_container_width=True)
 
@@ -54,7 +54,7 @@ with st.container():
             """
             **The Bottleneck:** The greatest project threats are the ones completely missing from your active registers.
 
-            **The Pipeline:** Uses an intelligent audit engine that cross-references sprint logs against localized vector store embeddings to surface hidden operational threats.
+            **The Pipeline:** Uses an intelligent audit engine that cross-references registered risks against localized vector store embeddings to surface hidden operational threats.
             """
         )
     with col2:
@@ -71,7 +71,7 @@ with st.container():
         st.subheader("3. Project Charter Dashboard")
         st.markdown(
             """
-            **The Bottleneck:** Aligning early-stage scoping charters with corporate capital strategy is slow and manually fragmented.
+            **The Bottleneck:** Aligning early-stage scoping charters with corporate strategy is slow and manually fragmented.
 
             **The Pipeline:** Contextual synthesis engine that ingests stakeholder raw parameters and compiles a unified charter mathematically mapped to strategic enterprise outcomes.
             """
