@@ -39,11 +39,10 @@ with st.container():
     with col2:
         st.write("##")  # Visual spacing
         st.link_button(
-            "In Progress",
-            "",
+            "Launch Prototype",
+            "https://schedule-risk-783573342516.us-east1.run.app/",
             type="primary",
-            use_container_width=True,
-            disabled=True  # This makes the button inactive
+            use_container_width=True
         )
 
 st.write("---")
