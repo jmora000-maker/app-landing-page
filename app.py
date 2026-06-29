@@ -28,7 +28,31 @@ st.header("Project Prototypes")
 with st.container():
     col1, col2 = st.columns([2, 1])
     with col1:
-        st.subheader("1. Stakeholder Alignment Dashboard")
+        st.subheader("1. Schedule Risk Dashboard")
+        st.markdown(
+            """
+            **The Bottleneck:** Schedule risk signals are scattered across plans, updates, issue logs, and meeting notes, making slippage hard to detect before milestones are missed.
+
+            **The Pipeline:** A schedule-risk engine that connects tasks, dependencies, issues, updates, and meeting evidence into early warnings, prioritized findings, and actionable responses.
+            """
+        )
+    with col2:
+        st.write("##")  # Visual spacing
+        st.link_button(
+            "In Progress",
+            "",
+            type="primary",
+            use_container_width=True,
+            disabled=True  # This makes the button inactive
+        )
+
+st.write("---")
+
+# --- APP 2: Stakeholder Alignment Dashboard ---
+with st.container():
+    col1, col2 = st.columns([2, 1])
+    with col1:
+        st.subheader("2. Stakeholder Alignment Dashboard")
         st.markdown(
             """
             **The Bottleneck:** Fragmented records and inconsistent engagement cadences create governance blind spots that stall project momentum.
@@ -47,7 +71,7 @@ st.write("---")
 with st.container():
     col1, col2 = st.columns([2, 1])
     with col1:
-        st.subheader("2. Risk Audit Dashboard")
+        st.subheader("3. Risk Audit Dashboard")
         st.markdown(
             """
             **The Bottleneck:** The greatest project threats are the ones completely missing from your active registers.
@@ -67,7 +91,7 @@ st.write("---")
 with st.container():
     col1, col2 = st.columns([2, 1])
     with col1:
-        st.subheader("3. Risk Report Dashboard")
+        st.subheader("4. Risk Report Dashboard")
         st.markdown(
             """
             **The Bottleneck:** Data-dense, insight-poor static spreadsheets stall alignment.
@@ -86,7 +110,7 @@ st.write("---")
 with st.container():
     col1, col2 = st.columns([2, 1])
     with col1:
-        st.subheader("4. Project Charter Dashboard")
+        st.subheader("5. Project Charter Dashboard")
         st.markdown(
             """
             **The Bottleneck:** Aligning early-stage scoping charters with corporate strategy is slow and manually fragmented.
